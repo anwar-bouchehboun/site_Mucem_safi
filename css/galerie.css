@@ -31,83 +31,38 @@ font-weight: 600;
     width: 100%;
     height: 100vh;
     background-color: #90C5EC;
+
 }
 .galerie h2{
-    text-align: center;
+   
+text-align: center;
 color: #FFF;
 font-family:'Inter';
 font-size: 50px;
-font-weight: 600;
-padding: 1em 0;
+font-weight: 600;;
+padding: 2.5% 0 ;
 }
-/* .galerie .images{
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    height: 70%;
-} */
+
 .galerie .images{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-width: 80%;
-height: 80%;
-margin:  3em auto;
+ width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+    margin:  0 auto;
+}
+.galerie .images img{
+   width: 95%;
+   height: 95%;
+   /* margin: 1em auto 0; */
+}
 
-
-}
-.galerie .images .img-g{
-    width: 30%;
-    height: auto;
-    padding-top: 1em;
-    margin: 0 auto;
-
-
-}
-.im1{
-    background-image: url(imggallery/Coupe-à-Fruit-OR-XXX1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.im2{
-    background-image: url(imggallery/Mini-Table11.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.im3{
-    background-image: url(imggallery/MINITABLE.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.im4{
-    background-image: url(imggallery/MaskgroupF.png);
-    background-size:124%;
-    background-repeat: no-repeat;
-    background-position: center top;
-    /* width: 100%; */
-}
-.im5{
-    background-image: url(imggallery/Maskgroup-2.png);
-    background-size: 130%;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-.im6{
-    background-image: url(imggallery/MASK-TABLEOR.png);
-    background-position: center top;
-    background-size: cover;
-}
 /*  video*/
 .video{
     width: 100%;
-    height: 100vh;
-    margin: 10% 0;
+    height: 60vh;
+    margin: 10% 0 0;
 }
 .video h2{
+  
     text-align: center;
         color: #2A9AEC;
         font-family: 'Inter';
@@ -116,11 +71,87 @@ margin:  3em auto;
 }
 .mp4{
     width: 80%;
-    height: 80vh;
-    margin:  5% auto;
+    margin:  5% auto 0;
 }
 .mp4 video{
     width: 100%;
-    height: auto;
     border:2px solid #000;
+}
+footer{
+
+    margin-top: 35%;
+}
+@media (max-width: 768px)     {
+    /* NAV */
+ .hamburger{
+     display: block;
+ }
+ /* .hamburger.active .bar:nth-child(2){
+     opacity: 0;
+ }
+ .hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+ }
+ .hamburger.active .bar:nth-child(3){
+     transform: translateY(-8px) rotate(-45deg);
+ } */
+   .nav-menu {
+     position: fixed;
+     left: -100%;
+     top: 70px;
+     gap: 0;
+     flex-direction: column;
+     background-color: #262626;
+     width: 100%;
+     text-align: center;
+     transition: 0.3s;
+     z-index: 10000;
+ }
+ .nav-logo img{
+     width: 25%;
+     }
+ .nav-item {
+     margin:1em 0;
+ }
+
+ .nav-menu.active {
+     left: 0;
+ }
+ .HESTOIRE{
+    align-items: center;
+    flex-direction: column;
+ }
+ .intrduction h1{
+  text-align: center;
+font-size: 2em;
+
+}
+.HESTOIRE .intrduction p{
+    width: auto;
+    text-align: center;
+   font-size: 1.4em;
+ 
+}
+.images-h img{
+    width: 200px;
+}
+/* galerie */
+.galerie{
+    width: auto;
+    height: auto;
+
+}
+.galerie .images{
+ 
+     grid-template-columns: repeat(1, 1fr);
+    
+       
+   }
+  /* footer */
+   footer{
+   
+
+        margin-top: 0;
+    
+   }
 }
