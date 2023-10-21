@@ -355,7 +355,7 @@ footer{
         /* HERO */
         .hero{
             background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)),url(../IMG/rabat-souk.webp);
-               height: 80vh;
+               height: 100vh;
         }
         .hero .container{
            
