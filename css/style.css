@@ -356,7 +356,7 @@ footer{
             background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)),url(../IMG/rabat-souk.webp);
                height: 80vh;
         }
-        .container{
+        .hero .container{
            
             padding: 7em 0 0;
             text-align: center;
@@ -406,7 +406,8 @@ footer{
             padding-bottom: 0;
         
         }
-        .container{
+       .product .container{
+            padding: 1.7em 0 0;
             margin: 0 auto;
         }
      
@@ -421,7 +422,7 @@ footer{
         .Artiste h2{
             padding-bottom: 8px;
 
-            font-size: 2.8em;
+          
         }
         .container-artiste{
              flex-direction: column; 
