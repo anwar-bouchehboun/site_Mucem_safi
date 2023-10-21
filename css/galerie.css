@@ -29,7 +29,7 @@ font-weight: 600;
 /* Galerie */
 .galerie{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color: #90C5EC;
 
 }
@@ -59,15 +59,17 @@ padding: 2.5% 0 ;
 .video{
     width: 100%;
     height: 60vh;
-    margin: 10% 0 0;
+    margin: 12% 0 0;
 }
 .video h2{
-  
+    
     text-align: center;
         color: #2A9AEC;
         font-family: 'Inter';
-        font-size: 41px;
+        /* font-size: 41px; */
+        font-size: 2.7em;
         font-weight: 700;
+      
 }
 .mp4{
     width: 80%;
@@ -79,7 +81,7 @@ padding: 2.5% 0 ;
 }
 footer{
 
-    margin-top: 35%;
+    margin-top: 30%;
 }
 @media (max-width: 768px)     {
     /* NAV */
@@ -147,11 +149,18 @@ font-size: 2em;
     
        
    }
+   /* vedio */
+   .video{
+    height: auto;
+   }
+   .video h2{
+    font-size: 2em;
+   }
   /* footer */
    footer{
    
-
-        margin-top: 0;
+          
+        margin-top: -10%;
     
    }
 }
