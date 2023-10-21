@@ -58,7 +58,7 @@ nav ul li a {
     /* section hero */
     .hero{
         /* background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)),url(IMG/rabat-souk.webp); */
-         background-image: url(/IMG/rabat-souk.webp);
+         background-image: url(../IMG/rabat-souk.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
