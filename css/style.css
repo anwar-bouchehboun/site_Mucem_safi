@@ -7,7 +7,7 @@
 }
 /* header */
 header {
-
+ 
     background-color: #ffff;
 }
 nav ul li {
@@ -293,7 +293,7 @@ content: '-';
 /* footer */
 footer{
     width: 100%;
-    height: auto;
+    height: 55vh;
     display: flex;
      justify-content: center;
      align-items: center;
@@ -355,26 +355,28 @@ footer{
         /* HERO */
         .hero{
             background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)),url(../IMG/rabat-souk.webp);
-               height: auto;
+               height: 70vh;
         }
         .hero .container{
            
-            padding: 7em 0 0;
+            padding: 4em 0 0;
             text-align: center;
             width: 100%;
-            height: auto;
+            height: 60vh;
             margin: 0 auto;
+            font-size: 20px;
            }
           .hero .container h1{
-            padding: 0.2em 0.4em;
+            padding: 0.4em 0.6em;
             margin-bottom: 0.2em;
+            font-size: 25px;
            }
           .hero .container p{
             margin-bottom: 0.5em;
             font-size: 1em;
            }
          .paragraphe{
-            font-size: 17px;
+            font-size: 10px;
             /* padding-right: 33%; */
             width: 80%;
             height: auto;
@@ -423,13 +425,15 @@ footer{
         
         }
         .Artiste h2{
-            padding-bottom: 8px;
-
+         
+         
+             font-size: 4em;
+            
           
         }
         .container-artiste{
              flex-direction: column; 
-            gap: 32px;
+            gap: 30px;
             width: 100%;
             
                
@@ -451,7 +455,7 @@ footer{
     .informatique{
        
         height: auto;
-        width: 100%;
+        width: auto;
         padding-bottom: 5%;
         margin: 5% 0 0;
     } 
