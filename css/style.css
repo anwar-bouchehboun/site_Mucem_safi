@@ -68,33 +68,33 @@ nav ul li a {
      
        
     }
-    .container{
-
+   .hero .container{
+    margin: 2em 2em;
      padding:6em 0 0;
 
  
     }
-    .container h1{
+    .hero .container h1{
         display: inline-block;
             color: #0B6DFF;
             font-family:'Poppins';
-            font-size: 1.5em;
+            font-size: 2.5em;
             font-weight: 700;
             text-transform: capitalize;
             border-radius: 81px;
             opacity: 0.69; 
             background: #FFF;
-           padding: 1em 1.1em;
+           padding: 1em 1.4em;
             margin-bottom: 1em;
     }
-    .container p{
+    .hero .container p{
         color: #FFF;
         font-family: 'Poppins';
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 700;
         text-transform: capitalize;
         margin-bottom: 1em;
-        line-height: 170%;
+     
     }
  .paragraphe{
         color: #F7F7F7;
@@ -103,6 +103,7 @@ nav ul li a {
         font-weight: 400;
         text-transform: capitalize;
         width: 527px;
+        line-height: 170%;
                 
     }
 /* About */
@@ -122,7 +123,7 @@ nav ul li a {
    
     color: #000;
     font-family: Inter;
-    font-size: 28px;
+    font-size: 2em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -159,15 +160,15 @@ nav ul li a {
     padding-bottom: 1em;
 
 }
-.container{
+.product .container{
     max-width:  85%;
     margin: 20px auto;
 }
-.container .imaageproduct{
+ .product .container .imaageproduct{
     columns: 3 250px;
     gap:15px;
 }
-.container  .imaageproduct img{
+.product .container  .imaageproduct img{
     width: 100%;
 } 
 
