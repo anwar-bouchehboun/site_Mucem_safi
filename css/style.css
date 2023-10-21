@@ -293,7 +293,7 @@ content: '-';
 /* footer */
 footer{
     width: 100%;
-    height: 50vh;
+    height: auto;
     display: flex;
      justify-content: center;
      align-items: center;
@@ -355,14 +355,14 @@ footer{
         /* HERO */
         .hero{
             background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)),url(../IMG/rabat-souk.webp);
-               height: 100vh;
+               height: auto;
         }
         .hero .container{
            
             padding: 7em 0 0;
             text-align: center;
             width: 100%;
-            height: 100%;
+            height: auto;
             margin: 0 auto;
            }
           .hero .container h1{
@@ -377,6 +377,7 @@ footer{
             font-size: 17px;
             /* padding-right: 33%; */
             width: 80%;
+            height: auto;
             margin: 0 auto;
                     
         }
