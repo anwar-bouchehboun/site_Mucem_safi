@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 /* header */
+html ,body{
+    overflow-x: hidden;
+}
 header {
  
     background-color: #ffff;
@@ -229,6 +232,7 @@ nav ul li a {
     padding-bottom: 12%;
 }
 /* INFORMATIONS PRATIQUES */
+
 .informatique{
     background-color: #2A9AEC;
      height: 60vh; 
@@ -254,6 +258,12 @@ nav ul li a {
     width: 100%;
     padding: 15px;
 }
+.answer{
+    display: none;
+}
+.answer.active{
+    display: block;
+}
 .accordion li label {
     color: #000;
     font-family: 'Inter';
@@ -269,26 +279,8 @@ nav ul li a {
     font-size: 24px;
     font-weight: 600;
 }
-input[type="checkbox"]{
-display: none;
-}
-.accordion .content {
-color: #000;
-font-family: 'Inter';
-font-size: 12px;
-font-weight: 600;
-max-height: 0;
-overflow: hidden;
-transition: max-height 0.2s, padding 0.5s;
-}
 
-.accordion input[type="checkbox"]:checked + label + .content {
-max-height: 400px;
-padding: 10px 10px 20px;
-}
-.accordion input[type="checkbox"]:checked + label::before{
-content: '-';
-}
+
 /* fin informatique */
 /* footer */
 footer{
@@ -355,7 +347,7 @@ footer{
         /* HERO */
         .hero{
             background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)),url(../IMG/rabat-souk.webp);
-               height: 70vh;
+               height: 80vh;
         }
         .hero .container{
            
