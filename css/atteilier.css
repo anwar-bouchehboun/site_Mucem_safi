@@ -124,7 +124,7 @@ font-weight: 700;
 .contact table tr td {
     padding: 2% 10% 2% 0;
     width: 200px;
-    background-color: #1f1f98;
+  
  
 }
 .contact table tr td label{
@@ -180,7 +180,7 @@ select{
    color: #FFF;
 }
 #btn:hover{
-    background-color: #1f1f98;
+    background-color: #3c3cc1;
     color: #FFF;
     
 }

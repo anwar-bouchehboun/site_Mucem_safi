@@ -105,4 +105,18 @@ function change(){
     setTimeout("change()",time);
 }
 window.onload=change;
-   
+//    gallery vedio 
+
+function openVideoPopup() {
+    var videoPopup = document.getElementById("video-popup");
+    videoPopup.style.display = "block";
+}
+
+function closeVideoPopup() {
+var videoPopup = document.getElementById("video-popup");
+videoPopup.style.display = "none";
+}
+document.querySelector(".image").addEventListener("click", openVideoPopup);
+document.querySelector(".close-button").addEventListener("click", closeVideoPopup);
+
+
