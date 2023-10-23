@@ -124,6 +124,7 @@ font-weight: 700;
 .contact table tr td {
     padding: 2% 10% 2% 0;
     width: 200px;
+    background-color: #1f1f98;
  
 }
 .contact table tr td label{
@@ -172,6 +173,11 @@ select{
    font-size: 16px;
    cursor: pointer;
 
+}
+.images-slide span {
+   padding-top: 2%;
+   font-size: 22px;
+   color: #FFF;
 }
 #btn:hover{
     background-color: #1f1f98;
