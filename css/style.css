@@ -347,16 +347,16 @@ footer{
         /* HERO */
         .hero{
             background-image:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)),url(../IMG/rabat-souk.webp);
-               height: 80vh;
+               height: auto;
         }
         .hero .container{
            
-            padding: 4em 0 0;
+            padding: 1em 0 0;
             text-align: center;
             width: 100%;
             height: 60vh;
             margin: 0 auto;
-            font-size: 20px;
+            font-size: 13px;
            }
           .hero .container h1{
             padding: 0.4em 0.6em;
@@ -364,8 +364,7 @@ footer{
             font-size: 25px;
            }
           .hero .container p{
-            margin-bottom: 0.5em;
-            font-size: 1em;
+            font-size: 16px;
            }
          .paragraphe{
             font-size: 10px;
