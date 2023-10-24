@@ -48,12 +48,17 @@ padding: 2.5% 0 ;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
     margin:  0 auto;
+ 
 }
+
 .galerie .images img{
    width: 95%;
    height: 95%;
-   /* margin: 1em auto 0; */
+   transition: transform 0.4s;
 }
+.galerie .images img:hover {
+    transform: scale(1.1); 
+  }
 
 /*  video*/
 .video{

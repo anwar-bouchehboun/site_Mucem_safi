@@ -37,7 +37,7 @@ function add() {
     var selectedValue = selectElement.value;
     var cop = 0;
   
-    var regexcin = /^[A-Z]{2}[0-9]+$/;
+    var regexcin = /^[A-Z]{1,2}[0-9]+$/;
     var regxEmail = /^[A-Za-z0-9_.]+@([a-z]+\.)+[a-z]{2,3}$/;
     var regexPhone = /^\+212[0-9]{9}$/;
   
