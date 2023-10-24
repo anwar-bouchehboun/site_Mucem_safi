@@ -258,6 +258,13 @@ nav ul li a {
     width: 100%;
     padding: 15px;
 }
+.content{
+    color: #000;
+font-family: 'Inter';
+font-size: 17px;
+
+font-weight: 600;
+}
 .answer{
     display: none;
 }
