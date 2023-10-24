@@ -123,9 +123,9 @@ footer{
 }
 @media (max-width: 768px)     {
     /* NAV */
- .hamburger{
+ /* .hamburger{
      display: block;
- }
+ } */
  /* .hamburger.active .bar:nth-child(2){
      opacity: 0;
  }
@@ -135,7 +135,7 @@ footer{
  .hamburger.active .bar:nth-child(3){
      transform: translateY(-8px) rotate(-45deg);
  } */
-   .nav-menu {
+   /* .nav-menu {
      position: fixed;
      left: -100%;
      top: 70px;
@@ -156,7 +156,7 @@ footer{
 
  .nav-menu.active {
      left: 0;
- }
+ } */
  .HESTOIRE{
     align-items: center;
     flex-direction: column;
@@ -199,7 +199,7 @@ font-size: 2em;
   /* footer */
    .footer{
    
-    margin-top: 2%;
+    margin-top: 1%;
     
    }
 }

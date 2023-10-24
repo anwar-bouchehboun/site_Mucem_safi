@@ -39,7 +39,6 @@ width: 10%;
     /* background-color: #fff; */
 }
 nav ul li a {
-    transition:  0.7s ease-in-out;
     padding: 8px 1em; 
 }
 
